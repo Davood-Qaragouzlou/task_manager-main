@@ -1,5 +1,5 @@
 const register = () => {
-  return <div>register</div>;
+  return <div>register </div>;
 };
 
 export default register;
