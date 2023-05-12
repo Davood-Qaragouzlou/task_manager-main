@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react'
+
 
 const AuthHeader = () => {
   return (
@@ -7,12 +9,14 @@ const AuthHeader = () => {
           کوئرا تسک منیجر
         </h1>
         <div className="flex justify-end items-center w-[207px] h-[40px] gap-[27px]">
-          <button className="text-[16px] w-[105px] whitespace-nowrap">
+          <span className="text-[16px] w-[105px] whitespace-nowrap">
             قبلا ثبت‌نام کرده‌ای؟
-          </button>
-          <button className="bg-blue-cyan text-[14px] w-[95px] h-[40px] text-white rounded-[6px]">
-            ورود
-          </button>
+          </span>
+          <Link href={"/login"}>
+            <button className="bg-blue-cyan text-[14px] w-[95px] h-[40px] text-white rounded-[6px]">
+              ورود
+            </button>
+          </Link>
         </div>
       </header>
   )
