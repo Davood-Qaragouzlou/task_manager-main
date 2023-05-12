@@ -52,7 +52,7 @@ const LoginForm = () => {
 
   return (
     <main className='flex flex-col h-auto w-[517px] h-auto p-[24px] gap-[29px] bg-white shadow-[0_12px_50px_rgba(0,0,0,0.18)] rounded-[20px] mx-auto'>
-        <h2 className='text-[32px] w-[469px] font-[600]'>به کوئرا تسک منیجر خوش برگشتی :) </h2>
+        <h2 className='text-[32px] w-[469px] font-[600]'>به کوئرا تسک منیجر خوش برگشتی </h2>
         <form action="" className='flex flex-col gap-[10px]' onSubmit={handleSubmit}>
             <label htmlFor=""> ایمیل</label>
             <input type="email" value={email} onChange={handleEmail} className='h-[40px] border-[1px] border-solid border-[#AAAAAA] rounded-[6px]'/>
