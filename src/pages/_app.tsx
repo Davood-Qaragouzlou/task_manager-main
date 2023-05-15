@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   console.log(router.pathname);
 
-  if (router.pathname === "/login" || router.pathname === "/register") {
+  if (router.pathname === "/login" || router.pathname === "/register" || router.pathname === "/forgetpassword") {
     return <Component {...pageProps} />;
   }
 
